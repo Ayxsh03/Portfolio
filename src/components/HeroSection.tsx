@@ -47,9 +47,9 @@ const HeroSection = () => {
       <div className="section-container flex flex-col md:flex-row items-center justify-between w-full px-4 sm:px-8 max-w-7xl gap-12">
         <div className="flex-1 space-y-8 text-center md:text-left">
           <div className={`space-y-4 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium inline-block animate-fade-in-delayed">
-              B.Tech CSE Student
-            </span>
+          <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-base font-medium inline-block animate-fade-in-delayed">
+          <b>Human</b> behind the Machine
+          </span>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
               Hi, I'm{" "}
@@ -74,8 +74,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto md:mx-0 animate-fade-in-delayed-2">
-              I am a Learner. I build modern AI applications with Python.
-              Passionate about creating elegant solutions to real world problems.
+              I am a 4th year B.Tech CSE student. I specialize in building AI-driven solutions that solve real-world problems. My passion is to create innovations that leverage the power of machine learning and artificial intelligence.
             </p>
           </div>
 

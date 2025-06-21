@@ -5,10 +5,10 @@ import { useEffect, useState } from 'react';
 
 const AboutSection = () => {
   const highlights = [
-    "ML Engineer",
-    "Problem Solver",
     "AI Enthusiast",
-    "Learner"
+    "Problem Solver",
+    "Machine Learning Engineer",
+    "Learning By Doing"
   ];
 
   const [isVisible, setIsVisible] = useState(false);
@@ -57,11 +57,12 @@ const AboutSection = () => {
             <div className="h-1 w-20 bg-primary mb-6 rounded animate-width-expand"></div>
             
             <p className="text-lg mb-6 text-muted-foreground">
-              
+              I’m currently pursuing my B.Tech in Computer Science, and over time, what started as a fascination with how things work has evolved into a passion for building things that actually do. From experimenting with AI models to solving DSA, I enjoy working at the intersection of creativity and logic.
+
             </p>
             
             <p className="text-lg mb-8 text-muted-foreground">
-              
+              Outside of tech, I’m someone who enjoys quiet focus and steady growth. I spend time reading, hitting the gym, and learning constantly.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
@@ -76,7 +77,7 @@ const AboutSection = () => {
             <Card className="bg-white dark:bg-background shadow-sm border border-primary/10 hover:shadow-md transition-all duration-300 hover:border-primary/20">
               <CardContent className="p-4 sm:p-6">
                 <blockquote className="italic text-muted-foreground">
-                  ""
+                  "Progress isn’t loud — it’s built line by line, thought by thought."
                 </blockquote>
               </CardContent>
             </Card>

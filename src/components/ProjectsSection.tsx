@@ -39,7 +39,7 @@ const ProjectsSection = () => {
       title: "DigiCam Classifier",
       description: "A CNN-based image classification web application that allows users to upload images and classify them into different categories using a trained model.",
       image: "https://shorturl.at/EuJK0",
-      technologies: [],
+      technologies: ["Python", "Flask", "TensorFlow", "Keras"],
       githubUrl: "https://github.com/Ayxsh03/DigiCam-Classifier",
       liveUrl: "#"
     },

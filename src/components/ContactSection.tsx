@@ -113,7 +113,7 @@ const ContactSection = () => {
           <h2 className="text-3xl font-bold mb-2">Get In Touch</h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6 rounded" />
           <p className="text-lg text-muted-foreground">
-            I'm always open to discussing new projects, opportunities, or just having a chat about new tech.
+            I'm always open to discussing new projects, opportunities, or just having a chat.
           </p>
         </div>
 
