@@ -58,7 +58,6 @@ const AboutSection = () => {
             
             <p className="text-lg mb-6 text-muted-foreground">
               
-              
             </p>
             
             <p className="text-lg mb-8 text-muted-foreground">
