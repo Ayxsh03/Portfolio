@@ -7,8 +7,8 @@ const PassionSection = () => {
   const passions = [
     {
       emoji: "🚀", 
-      title: "Web Applications",
-      description: "I love building fast, responsive web apps that provide a seamless user experience across all devices."
+      title: "ML Development",
+      description: "I love building machine learning models that can learn from data and make predictions, enhancing user experiences and solving complex problems."
     },
     {
       emoji: "🧩", 
@@ -37,7 +37,7 @@ const PassionSection = () => {
           {/* Accent line - modify color or size */}
           <div className="h-1 w-20 bg-primary mx-auto mb-6 rounded"></div>
           <p className="text-lg text-muted-foreground">
-            Beyond just coding, these are the aspects of development that truly excite me and fuel my passion
+            Beyond just coding, these are the aspects of computer science that truly excite me and fuel my passion
           </p>
         </div>
         

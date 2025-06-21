@@ -28,27 +28,27 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "AlpesTech",
-      description: "AlpesTech is a MERN stack web application that enables students to enroll in courses, view enrollments and results, while admins manage courses and upload student results via a role-based system.",
-      image: "https://ik.imagekit.io/anshut/alpstech/Screenshot%202025-04-09%20204035.png?updatedAt=1744211808005",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "TypeScript", "Tailwind CSS"],
-      githubUrl: "https://github.com/AnshuTanwar/AlpesTech",
-      liveUrl: "https://alpes-tech.vercel.app/"
-    },
-    {
-      title: "StayWise",
-      description: "A full-stack web application designed to simplify the process of discovering, listing, and booking accommodations.",
-      image: "https://ik.imagekit.io/anshut/alpstech/Screenshot%202025-05-04%20162901.png?updatedAt=1746356446706",
-      technologies: ["HTML", "Node.js", "MongoDB", "Express", "JWT"],
-      githubUrl: "https://github.com/AnshuTanwar/StayWise",
-      liveUrl: "https://staywise-d2rd.onrender.com/listings"
-    },
-    {
-      title: "UniMeet",
-      description: "An advanced web-based communication platform designed to revolutionize virtual collaboration. Leveraging the MERN stack, Unimeet offers robust real-time video conferencing integrated with state-of-the-art features tailored for modern-day remote communication needs.",
+      title: "Personal AI Assistant",
+      description: "A python-based AI assistant that integrates with various APIs to provide personalized responses and automate tasks.",
       image: "https://shorturl.at/EuJK0",
-      technologies: ["React", "Socket.io", "Node.js", "Express", "MongoDB"],
-      githubUrl: "https://github.com/AnshuTanwar/UniMeet",
+      technologies: ["Python", "OpenAI API", "Flask", "SQLite"],
+      githubUrl: "https://github.com/Ayxsh03/Personal-AI-Assistant",
+      liveUrl: "#"
+    },
+    {
+      title: "DigiCam Classifier",
+      description: "A CNN-based image classification web application that allows users to upload images and classify them into different categories using a trained model.",
+      image: "https://shorturl.at/EuJK0",
+      technologies: [],
+      githubUrl: "https://github.com/Ayxsh03/DigiCam-Classifier",
+      liveUrl: "#"
+    },
+    {
+      title: "House Price Prediction",
+      description: "A end to end web application that predicts house prices based on various features using machine learning algorithms.",
+      image: "https://shorturl.at/EuJK0",
+      technologies: ["Python", "Flask", "Scikit-learn", "Pandas"],
+      githubUrl: "#",
       liveUrl: "#"
     }
   ];
@@ -85,7 +85,7 @@ const ProjectsSection = () => {
               <CardContent className="flex-grow">
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
-                    <Badge 
+                    <Badge
                       key={techIndex} 
                       variant="secondary"
                       className="transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
@@ -117,7 +117,7 @@ const ProjectsSection = () => {
             variant="outline" 
             className="rounded-full transition-all duration-300 hover:scale-105 hover:shadow-md"
           >
-            <a href="https://github.com/AnshuTanwar" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Ayxsh03" target="_blank" rel="noopener noreferrer">
               <Github className="h-4 w-4 mr-2" />
               View More on GitHub
             </a>

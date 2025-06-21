@@ -6,10 +6,10 @@ import Spline from '@splinetool/react-spline';
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const roles = ["Full Stack Developer", "MERN Specialist", "Problem Solver"];
+  const roles = ["Machine Learning Engineer", "AI Enthusiast", "Problem Solver"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayedName, setDisplayedName] = useState("");
-  const fullName = "Aanshu";
+  const fullName = "Ayush Sai";
   const [typewriterComplete, setTypewriterComplete] = useState(false);
 
   useEffect(() => {
@@ -74,8 +74,8 @@ const HeroSection = () => {
             </div>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto md:mx-0 animate-fade-in-delayed-2">
-              I build modern web applications with React, Node.js, and MongoDB.
-              Passionate about creating elegant solutions to complex problems.
+              I am a Learner. I build modern AI applications with Python.
+              Passionate about creating elegant solutions to real world problems.
             </p>
           </div>
 

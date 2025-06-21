@@ -7,65 +7,65 @@ import { useInView } from 'react-intersection-observer';
 const SkillsSection = () => {
   const skillCategories = [
     {
-      name: "Frontend",
+      name: "Machine Learning",
       icon: <Code className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "React.js", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "Next.js", level: 75 },
-        { name: "Tailwind CSS", level: 95 },
+        { name: "Supervised Learning", level: 95 },
+        { name: "Model Evaluation", level: 90 },
+        { name: "Dimensionality Reduction ", level: 90 },
+        { name: "Unsupervised Learning", level: 80 },
       ]
     },
     {
-      name: "Backend",
-      icon: <Server className="h-6 w-6 text-primary" />,
-      skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express.js", level: 90 },
-        { name: "RESTful APIs", level: 80 },
-        { name: "GraphQL", level: 70 },
-      ]
-    },
-    {
-      name: "Database",
+      name: "Deep Learning",
       icon: <Database className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "MongoDB", level: 90 },
-        { name: "Mongoose", level: 85 },
-        { name: "SQL", level: 70 },
-        { name: "Redis", level: 60 },
+        { name: "Neural Networks", level: 90 },
+        { name: "Comuter Vision", level: 85 },
+        { name: "Transfer Learning", level: 70 },
+        { name: "TF Keras", level: 80},
       ]
     },
     {
-      name: "Tools & Others",
+      name: "NLP & Transformers",
       icon: <Settings className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 65 },
-        { name: "Jest", level: 70 },
-      ]
-    },
-    {
-      name: "UI/UX",
-      icon: <Palette className="h-6 w-6 text-primary" />,
-      skills: [
-        { name: "Figma", level: 80 },
-        { name: "Web Design", level: 75 },
-        { name: "Responsive Design", level: 90 },
-        { name: "Accessibility", level: 85 },
+        { name: "Scikit-learn", level: 90 },
+        { name: "Text Classification", level: 95 },
+        { name: "Transformers", level: 70 },
+        { name: "Hugging Face", level: 70 },
       ]
     },
     {
       name: "Languages",
       icon: <Globe className="h-6 w-6 text-primary" />,
       skills: [
-        { name: "JavaScript", level: 75 },
-        { name: "TypeScript", level: 65 },
-        { name: "Java", level: 80 },
-        { name: "Python", level: 70 },
+        { name: "Java", level: 95 },
+        { name: "Python", level: 90 },
+        { name: "MySQL", level: 95 },
+        { name: "C++", level: 70 },
       ]
     },
+    {
+      name: "Exploratory Data Analysis",
+      icon: <Palette className="h-6 w-6 text-primary" />,
+      skills: [
+        { name: "Matplotlib", level: 90 },
+        { name: "Seaborn", level: 80 },
+        { name: "Numpy", level: 95 },
+        { name: "Pandas", level: 85 },
+      ]
+    },
+    {
+      name: "Web Development",
+      icon: <Server className="h-6 w-6 text-primary" />,
+      skills: [
+        { name: "HTML CSS JS", level: 85 },
+        { name: "Flask", level: 70 },
+        { name: "RESTful APIs", level: 80 },
+        { name: "MySQL", level: 95 },
+      ]
+    }
   ];
 
   return (
@@ -75,7 +75,7 @@ const SkillsSection = () => {
           <h2 className="text-3xl font-bold mb-2">My Skills</h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6 rounded"></div>
           <p className="text-lg text-muted-foreground">
-            I've developed a diverse set of skills throughout my journey as a developer.
+            I've developed a diverse set of skills throughout my journey as a student.
             Here's a breakdown of my technical expertise.
           </p>
         </div>
