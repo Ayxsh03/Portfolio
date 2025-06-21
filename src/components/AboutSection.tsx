@@ -43,7 +43,7 @@ const AboutSection = () => {
               <div className="absolute w-full h-full rounded-full border-2 border-primary/20"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden hover:scale-105 transition-transform duration-500">
                 <img
-                  src="ayush.jpg"
+                  src="https://ik.imagekit.io/ayxshsai/ayush/ayush.jpg?updatedAt=1750506175948"
                   alt="Developer profile"
                   className="w-full h-full object-cover"
                 />
@@ -57,6 +57,7 @@ const AboutSection = () => {
             <div className="h-1 w-20 bg-primary mb-6 rounded animate-width-expand"></div>
             
             <p className="text-lg mb-6 text-muted-foreground">
+              
               
             </p>
             
