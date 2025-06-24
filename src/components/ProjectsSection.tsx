@@ -28,6 +28,14 @@ const ProjectsSection = () => {
 
   const projects = [
     {
+      title: "Football Analysis",
+      description: "A end to end football analytics system using AI & computer vision tools to detect, track, and analyze players, referees, goalkeepers, and the ball in match videos.",
+      image: "public/ss.png",
+      technologies: ["Python", "OpenCV", "TorchReID", "Scikit-Learn"],
+      githubUrl: "https://github.com/Ayxsh03/Football_Analysis",
+      liveUrl: "#"
+    },
+    {
       title: "Personal AI Assistant",
       description: "A python-based AI assistant that integrates with various APIs to provide personalized responses and automate tasks.",
       image: "https://shorturl.at/EuJK0",
