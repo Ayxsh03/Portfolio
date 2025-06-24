@@ -30,7 +30,7 @@ const ProjectsSection = () => {
     {
       title: "Football Analysis",
       description: "A end to end football analytics system using AI & computer vision tools to detect, track, and analyze players, referees, goalkeepers, and the ball in match videos.",
-      image: "public/ss.png",
+      image: "https://ik.imagekit.io/ayxshsai/ayush/Screenshot%202025-06-24%20at%2011.28.50%E2%80%AFPM.png?updatedAt=1750787941811",
       technologies: ["Python", "OpenCV", "TorchReID", "Scikit-Learn"],
       githubUrl: "https://github.com/Ayxsh03/Football_Analysis",
       liveUrl: "#"
